@@ -31,9 +31,9 @@ class ViewController: UIViewController {
         label2.textColor = .white
         label3.textColor = .white
         
-        label1.backgroundColor = .red
-        label2.backgroundColor = .red
-        label3.backgroundColor = .red
+        label1.backgroundColor = .blue
+        label2.backgroundColor = .blue
+        label3.backgroundColor = .blue
         
         label1.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height/3)
         label2.frame = CGRect(x: 0, y: view.frame.size.height/3, width: view.frame.size.width, height: view.frame.size.height/3)
